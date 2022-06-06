@@ -1,0 +1,62 @@
+body {
+	font-family: "Rubik", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1172px;
+	margin: 0 auto;
+}
+.container-fluid {
+	overflow: hidden;
+	max-width: 1920px;
+}
+.new-badge {
+	position: absolute;
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 130%;
+	letter-spacing: 0.008em;
+	padding: 4px 9px;
+	background-color: #00b7f1;
+	color: #fff;
+	border-bottom-right-radius: 5px;
+}
+.sale-badge {
+	position: absolute;
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 130%;
+	letter-spacing: 0.008em;
+	padding: 4px 9px;
+	background-color: $green;
+	color: #fff;
+	border-bottom-right-radius: 5px;
+}
+.discount-badge {
+	position: absolute;
+	font-family: "Mulish";
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 130%;
+	letter-spacing: 0.008em;
+	padding: 4px 9px;
+	background-color: #ff6868;
+	color: #fff;
+	border-bottom-right-radius: 5px;
+}
+.favouriteBtn--active {
+	#favourite {
+		fill: #ff6868 !important;
+	}
+}
+.none {
+	display: none !important;
+}
+.active {
+	display: flex !important;
+}

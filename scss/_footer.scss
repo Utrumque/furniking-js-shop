@@ -1,0 +1,129 @@
+.footer {
+	margin-top: 110px;
+	&__menu {
+		margin-bottom: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	&__menu-about {
+		max-width: 320px;
+		margin-right: 80px;
+	}
+	&__menu-logo {
+		margin-bottom: 15px;
+	}
+	&__menu-text {
+		font-size: 16px;
+		line-height: 32px;
+		margin-bottom: 8px;
+	}
+	&__menu-social {
+		display: flex;
+		align-items: center;
+	}
+	&__menu-social-item {
+		cursor: pointer;
+		margin-top: 16px;
+		margin-right: 30x;
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+		&:hover {
+			#facebook {
+				transition: all 0.5s linear;
+				fill: rgb(54, 15, 196);
+			}
+			#twitter {
+				transition: all 0.5s linear;
+				fill: rgb(10, 117, 147);
+			}
+			#instagram {
+				transition: all 0.5s linear;
+				fill: rgb(235, 11, 153);
+			}
+			#pinterest {
+				transition: all 0.5s linear;
+				fill: rgb(203, 17, 39);
+			}
+		}
+	}
+	&__menu-help {
+		margin-right: 180px;
+		font-size: 18px;
+		line-height: 40px;
+		letter-spacing: 0.01em;
+		a {
+			color: $darkGrey;
+		}
+	}
+	&__menu-help-title {
+		font-weight: 500;
+	}
+	&__menu-help-item {
+		margin-bottom: 20px;
+		white-space: nowrap;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__menu-store {
+		margin-right: 180px;
+		font-size: 18px;
+		line-height: 40px;
+		letter-spacing: 0.01em;
+		a {
+			color: $darkGrey;
+		}
+	}
+	&__menu-store-title {
+		font-weight: 500;
+	}
+	&__menu-store-item {
+		white-space: nowrap;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__menu-support {
+		font-size: 18px;
+		line-height: 40px;
+		letter-spacing: 0.01em;
+		a {
+			color: $darkGrey;
+		}
+	}
+	&__menu-support-title {
+		font-weight: 500;
+	}
+	&__menu-support-item {
+		white-space: nowrap;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__rights {
+		border-top: 1px solid rgba(#969696, 0.2);
+		padding: 33px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__rights-main {
+		line-height: 14px;
+		color: $darkGrey;
+	}
+	&__rights-info {
+		a {
+			color: $darkGrey;
+		}
+	}
+	&__rights-btn {
+		&:not(:first-child) {
+			margin-left: 50px;
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
